@@ -11,6 +11,7 @@ html {
 
 header {
     display: flex;
+    font-family: "Roboto Light", curvy, serif;
 }
 
 #shadow {
@@ -20,7 +21,7 @@ header {
 }
 
 #main-content {
-
+    font-family: "Roboto Light", curvy, serif;
 }
 
 /* Navigation */
