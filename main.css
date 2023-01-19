@@ -67,18 +67,20 @@ nav {
     padding: 45px 10px 0 10px;
 }
 
+.textInSubpage {
+    color: #189ab4;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 /* Domov */
 
 .imgDomov {
     top: -10px;
 }
 
-.textInDomov {
-    color: #189ab4;
-    font-size: 30px;
-    font-weight: 600;
-}
 
-#domovForMOBILE .textInDomov {
+
+#domovForMOBILE .textInSubpage {
     margin: 10px;
 }
