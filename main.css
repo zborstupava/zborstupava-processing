@@ -81,7 +81,6 @@ nav {
 }
 
 
-
 #domovForMOBILE .textInSubpage {
     margin: 10px;
 }
@@ -91,6 +90,12 @@ nav {
 audio {
     background-color: #ffffff;
 }
+
+
+strong {
+    font-size: 20px;
+}
+
 
 
 
