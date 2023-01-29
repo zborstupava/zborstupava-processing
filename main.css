@@ -85,7 +85,7 @@ nav {
     margin: 10px;
 }
 
-/* Nahravky */
+/* Nahrávky */
 
 audio {
     background-color: #ffffff;
@@ -96,6 +96,13 @@ strong {
     font-size: 20px;
 }
 
+/* Galéria */
 
+#galleryLinks {
+    padding: 50px;
+}
 
+#galleryLinks a {
+    margin: 25px;
+}
 

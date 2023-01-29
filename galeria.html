@@ -10,7 +10,11 @@
     <link href="responsivity.css" rel="stylesheet">
     <script src="js/bootstrap.js"></script>
 
+    <link href="Lightbox.css" rel="stylesheet">
+    <script src="LightboxJS.js" rel="script"></script>
+
 </head>
+
 <body>
 
 <header class="container-fluid row">
@@ -85,7 +89,159 @@
 
     <div id="domovForPC">
 
-        <a href=""
+        <div class="row">
+
+            <div class="col">
+                <img src=" IMGs\gallery\chlapy-debata.jpg"
+                     onclick="openLightbox();toSlide(1)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\fotkaSpolu.jpg"
+                     onclick="openLightbox();toSlide(2)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\fotkaSpolu2.JPG"
+                     onclick="openLightbox();toSlide(3)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\fotkaSpolu3.jpg"
+                     onclick="openLightbox();toSlide(4)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\Lucka-Klavir.jpg"
+                     onclick="openLightbox();toSlide(5)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\sviecka.jpg"
+                     onclick="openLightbox();toSlide(6)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\sviecky.jpg"
+                     onclick="openLightbox();toSlide(7)"
+                     class="preview" alt=""/>
+            </div>
+
+            <div class="col">
+                <img src=" IMGs\gallery\zalm-Rajnakovci.jpg"
+                     onclick="openLightbox();toSlide(8)"
+                     class="preview" alt=""/>
+            </div>
+
+
+        </div>
+
+        <div id="Lightbox" class="modal">
+
+            <span class="close pointer" onclick="closeLightbox()">&times;</span>
+            <div class="modal-content">
+
+                <div class="slide">
+                    <img src="IMGs\gallery\chlapy-debata.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\fotkaSpolu.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\fotkaSpolu2.JPG" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\fotkaSpolu3.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\Lucka-Klavir.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\sviecka.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\sviecky.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+                <div class="slide">
+                    <img src="IMGs\gallery\zalm-Rajnakovci.jpg" class="image-slide"
+                         alt=""/>
+                </div>
+
+
+                <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+
+
+                <div class="dots">
+
+
+                    <div class="col">
+                        <img src="IMGs\gallery\chlapy-debata.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(1)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\fotkaSpolu.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(2)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\fotkaSpolu2.JPG"
+                             class="modal-preview hover-shadow" onclick="toSlide(3)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\fotkaSpolu3.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(4)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\Lucka-Klavir.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(5)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\sviecka.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(6)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\sviecky.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(7)" alt=""/>
+                    </div>
+
+                    <div class="col">
+                        <img src="IMGs\gallery\zalm-Rajnakovci.jpg"
+                             class="modal-preview hover-shadow" onclick="toSlide(8)" alt=""/>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 
