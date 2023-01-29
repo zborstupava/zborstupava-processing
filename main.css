@@ -24,6 +24,12 @@ header {
     font-family: "Roboto Light", curvy, serif;
 }
 
+#link {
+    color: #0a53be;
+    font-size: 30px;
+    text-decoration: none;
+}
+
 /* Navigation */
 
 nav {
@@ -96,6 +102,16 @@ strong {
     font-size: 20px;
 }
 
+.audioAndName {
+    margin: 100px 0;
+}
+
+#recordings {
+
+    text-align: left;
+
+}
+
 /* Galéria */
 
 #galleryLinks {
@@ -106,3 +122,13 @@ strong {
     margin: 25px;
 }
 
+#main-content {
+
+}
+
+/* Kontakt */
+
+#mailToJR {
+    color: #0a53be;
+    text-decoration: none;
+}
